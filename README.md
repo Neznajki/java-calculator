@@ -56,3 +56,8 @@ openjdk 21.0.9 2025-10-21 LTS
 OpenJDK Runtime Environment Temurin-21.0.9+10 (build 21.0.9+10-LTS)
 OpenJDK 64-Bit Server VM Temurin-21.0.9+10 (build 21.0.9+10-LTS, mixed mode, sharing)
 ```
+
+* done in 3h
+```text
+there are cases that is not optimal. but I prefer readability and YARGNI.
+```
