@@ -4,7 +4,7 @@ import com.example.calculator.contract.CalculationOperationInterface;
 
 public class Subtraction implements CalculationOperationInterface {
   @Override
-  public float calculate(float a, float b) {
+  public double calculate(double a, double b) {
     return a - b;
   }
 }

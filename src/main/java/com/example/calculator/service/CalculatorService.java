@@ -20,7 +20,7 @@ public class CalculatorService {
           "^", new Exponentiation()
       );
 
-  public float calculate(CalcOptionsDTO  calcOptionsDTO) {
+  public double calculate(CalcOptionsDTO  calcOptionsDTO) {
     return operations.get(calcOptionsDTO.operation()).calculate(calcOptionsDTO.a(), calcOptionsDTO.b());
   }
 

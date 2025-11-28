@@ -24,7 +24,7 @@ public class CalculatorApplication {
       validatorService.validate(args);
       var calcOptions = extractorService.extract(args);
 
-      float resp = calculatorService.calculate(calcOptions);
+      var resp = calculatorService.calculate(calcOptions);
 
       return String.format("%.4f", resp).replaceAll("\\.?0+$", "");
     }
