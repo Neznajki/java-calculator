@@ -26,10 +26,6 @@ public class CalculatorApplication {
 
       float resp = calculatorService.calculate(calcOptions);
 
-      if (resp % 1 > 0) {
-        return String.format("%.2f", resp);
-      } else {
-        return String.format("%.0f", resp);
-      }
+      return String.format("%.4f", resp).replaceAll("\\.?0+$", "");
     }
 }

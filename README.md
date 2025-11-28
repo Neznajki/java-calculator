@@ -26,3 +26,26 @@ System.out.println(calc.calculate(5, 3, "^")); // 125.0
 ![img.png](img.png)
 
 # java-calculator run.
+
+```shell
+git clone https://github.com/Neznajki/java-calculator
+cd java-calculator
+```
+* expected 21
+```shell
+java -version
+```
+
+* windows
+```shell
+./gradlew.bat build
+./gradlew.bat test
+./gradlew.bat bootRun --args="10 5 +"
+```
+
+* linux
+```shell
+./gradlew build
+./gradlew test
+./gradlew bootRun --args="10.2 5 *"
+```
