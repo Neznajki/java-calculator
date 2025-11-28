@@ -1,0 +1,9 @@
+# Ignore build artifacts and VCS files
+build/
+.gradle/
+.git/
+.idea/
+*.iml
+out/
+target/
+*.log
