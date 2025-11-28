@@ -49,7 +49,7 @@ public class ValidatorService {
     }
   }
 
-  private static boolean notNumeric(String value) {
+  private boolean notNumeric(String value) {
     try {
       Float.parseFloat(value);
       return false;
