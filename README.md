@@ -49,3 +49,10 @@ java -version
 ./gradlew test
 ./gradlew bootRun --args="10.2 5 *"
 ```
+
+* tested on Windows 10
+```text
+openjdk 21.0.9 2025-10-21 LTS
+OpenJDK Runtime Environment Temurin-21.0.9+10 (build 21.0.9+10-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.9+10 (build 21.0.9+10-LTS, mixed mode, sharing)
+```
