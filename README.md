@@ -22,4 +22,7 @@ Calculator calc = new Calculator(); System.out.println(calc.calculate(5, 3, "+")
 System.out.println(calc.calculate(5, 3, "^")); // 125.0
 ```
 
-# java-calculator
+# java-calculator test coverage.
+![img.png](img.png)
+
+# java-calculator run.
